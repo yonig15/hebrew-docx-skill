@@ -1,0 +1,9 @@
+{
+  "name": "hebrew-docx",
+  "description": "Hebrew Word (.docx) documents that stay right-to-left, tables included, plus a fixer for broken Hebrew files.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yoni Golan"
+  },
+  "repository": "https://github.com/yonig15/hebrew-docx-skill"
+}

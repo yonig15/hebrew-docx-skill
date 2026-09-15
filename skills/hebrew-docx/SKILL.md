@@ -27,6 +27,7 @@ Word מניח כברירת מחדל שכל פסקה נכתבת משמאל לימ
    python3 <skill-dir>/scripts/hebrew_docx.py input.md /mnt/user-data/outputs/<name>.docx
    ```
    אם python-docx חסר: `pip install python-docx` והרץ שוב.
+   `/mnt/user-data/outputs` היא תיקיית הקבצים להורדה ב-claude.ai. אם היא לא קיימת (למשל ב-Cowork או ב-Claude Code), שמור את הקובץ בתיקיית העבודה של המשתמש.
 3. מסור את קובץ ה-docx למשתמש.
 4. אם המשתמש ביקש PDF: המר את ה-docx עם
    `soffice --headless --convert-to pdf --outdir /mnt/user-data/outputs <file>.docx`.

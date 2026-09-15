@@ -1,0 +1,15 @@
+{
+  "name": "hebrew-docx-skill",
+  "owner": {
+    "name": "Yoni Golan"
+  },
+  "description": "Hebrew right-to-left document tools for Claude.",
+  "plugins": [
+    {
+      "name": "hebrew-docx",
+      "source": "./",
+      "description": "Hebrew Word (.docx) documents that stay right-to-left, tables included, plus a fixer for broken Hebrew files.",
+      "version": "1.0.0"
+    }
+  ]
+}
